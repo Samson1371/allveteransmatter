@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33077227/README.md)
 # All Veterans Matter
 
 All Veterans Matter is a deploy-ready Next.js MVP landing page focused on
