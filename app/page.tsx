@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "../AVM.PNG";
 
 const resources = [
   {
@@ -68,8 +67,10 @@ export default function Home() {
         <a className="brand" href="#home" aria-label="All Veterans Matter home">
           <Image
             className="brand-logo"
-            src={logo}
+            src="/avm-logo.png"
             alt="All Veterans Matter — No Veteran Left Behind"
+            width={48}
+            height={48}
             priority
           />
           <span className="brand-name">
@@ -117,8 +118,10 @@ export default function Home() {
             <div className="emblem-glow" />
             <Image
               className="hero-emblem"
-              src={logo}
+              src="/avm-logo.png"
               alt="All Veterans Matter emblem"
+              width={1250}
+              height={1250}
               priority
               sizes="(max-width: 760px) 72vw, 400px"
             />
@@ -230,7 +233,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <a className="footer-brand" href="#home">
-          <Image src={logo} alt="" width={44} height={44} />
+          <Image src="/avm-logo.png" alt="" width={44} height={44} />
           <span>ALL VETERANS MATTER</span>
         </a>
         <p>Honoring service. Connecting community.</p>
